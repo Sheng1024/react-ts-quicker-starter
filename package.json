@@ -1,18 +1,25 @@
 {
   "name": "react-ts-quicker-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Quickly create react + typescript project development environment and scaffold for developing npm package components",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sheng1024/react-ts-quicker-starter.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react-project",
+    "typescript-project",
+    "react-typescript",
+    "react-ts-quicker-starter"
+  ],
+  "author": {
+    "name": "Sheng1024",
+    "url": "https://github.com/Sheng1024",
+    "email": "Sheng@1024.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Sheng1024/react-ts-quicker-starter/issues"
   },
