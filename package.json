@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Sheng1024/react-ts-quicker-starter/issues"
   },
-  "homepage": "https://github.com/Sheng1024/react-ts-quicker-starter#readme"
+  "homepage": "https://github.com/Sheng1024/react-ts-quicker-starter#readme",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
 }
