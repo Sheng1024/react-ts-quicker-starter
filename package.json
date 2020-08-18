@@ -25,6 +25,18 @@
   },
   "homepage": "https://github.com/Sheng1024/react-ts-quicker-starter#readme",
   "devDependencies": {
-    "prettier": "^2.0.5"
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-unicorn": "^21.0.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
   }
 }
