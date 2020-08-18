@@ -8,6 +8,22 @@
     "lint-eslint": "eslint -c .eslintrc.js --ext .ts,.tsx,.js src",
     "lint-stylelint": "stylelint --config .stylelintrc.js src/**/*.{less,css,scss}"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": [
+      "eslint --config .eslintrc.js"
+    ],
+    "*.{css,less,scss}": [
+      "stylelint --config .stylelintrc.js"
+    ],
+    "*.{ts,tsx,js,json,html,yml,css,less,scss,md}": [
+      "prettier --write"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sheng1024/react-ts-quicker-starter.git"
@@ -40,6 +56,8 @@
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.0.8",
     "eslint-plugin-unicorn": "^21.0.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "stylelint": "^13.6.1",
     "stylelint-config-prettier": "^8.0.2",
