@@ -37,6 +37,11 @@
     "eslint-plugin-react-hooks": "^4.0.8",
     "eslint-plugin-unicorn": "^21.0.0",
     "prettier": "^2.0.5",
+    "stylelint": "^13.6.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+    "stylelint-order": "^4.1.0",
     "typescript": "^3.9.7"
   }
 }
